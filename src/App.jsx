@@ -1,10 +1,10 @@
-import Counter from "./Counter";
+import ColorPicker from "./ColorPicker";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-dvh border bg-indigo-950">
-      <Counter />
-    </div>
+    <>
+      <ColorPicker />
+    </>
   );
 }
 
